@@ -1,0 +1,31 @@
+--DROP TABLE Employees;
+
+
+--CREATE TABLE Employees (Emp_id int,First_name varchar(255),Last_name varchar(255),Phone_No varchar(255),Hire_date DATE,Job_Id int,Emp_Salary int,Comission_Pct int,manager_id int,Department_id int);
+
+
+ --INSERT INTO Employees VALUES (32001,'HITESH','DATT',8782728728,'12-Jan- 2020',201,8000,9001,100,50),(32002,'RAHUL','SERAWAT',9811112327,'20-Aug- 2022',202,4000,9002,100,60),(32003,'ROHAN','SINGH',7353647368,'11-Feb- 2018',203,6600,9003,101,70),(32004,'JOHN','AUSTIN',7262738273,'22-May- 2021',204,3200,9004,101,80),(32005,'MERAJUL','DAS',9526362726,'26-Sep- 2019',205,5200,9005,101,90);
+
+
+-- SELECT Emp_id,First_Name,Last_Name,Emp_Salary FROM Employees;
+
+
+-- SELECT * FROM Employees WHERE manager_id=100;
+
+
+--SELECT First_Name,Last_Name,Emp_Salary FROM Employees WHERE Emp_Salary>=4800;
+
+
+-- SELECT * FROM Employees WHERE Last_Name="AUSTIN";
+
+
+--SELECT First_Name,Last_Name,Department_id FROM Employees where Department_id IN(60,70,80);
+
+
+-- SELECT DISTINCT(manager_id) from Employees;
+
+
+-- UPDATE Client_Master set Balance_Due=5100 where Client_No='C123';
+
+
+-- ALTER TABLE Client_master RENAME TO Client12;
